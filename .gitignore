@@ -1,0 +1,5 @@
+# User material and run artifacts — never committed
+input/
+output/
+research/
+.eventlog
