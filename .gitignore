@@ -3,3 +3,6 @@ input/
 output/
 research/
 .eventlog
+
+# Local meta-development tools (smoke tests, dev scripts) — not part of the template
+_meta/
