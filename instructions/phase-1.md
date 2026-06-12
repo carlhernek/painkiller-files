@@ -69,4 +69,4 @@ or on failure:
 
 ## After This Phase
 
-Proceed to `phase-1b.md` (retrospective).
+Stop when phase 1 is complete. **Do not run phase-1b yourself** — do not read `phase-1b.md` or append phase-1b events. The pipeline runs the retrospective as a separate step.

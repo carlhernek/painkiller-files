@@ -14,6 +14,12 @@ This is where Painkiller's software focus is distilled. Every solution vision mu
 - **No policies, no API-only/backend-only tools.** A policy demand (e.g. "provide more paid sick days") is not a product. Reframe it as the software that delivers or operationalizes it (e.g. a sick-leave accrual + one-tap call-in app the worker uses on their phone). If there is no genuine user-facing software at the center — only a policy with an app bolted on as an afterthought — drop the idea rather than forcing it.
 - **Always name a real user and a real platform.** Who opens this software, on what device, to solve what?
 
+## Research discipline
+
+- **Check `research/` first** — list and read existing files before calling `web_fetch`.
+- **Do not re-try URLs that already failed** in this run (403, SSL, 404). Use Bootstrap or Remix instead.
+- **Limit web fetches** — at most 3 `web_fetch` attempts per phase run unless the orchestrator says otherwise.
+
 ## Three Solution Modes
 
 ### 1. Remix
