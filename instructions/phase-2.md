@@ -4,7 +4,15 @@
 
 ## Goal
 
-Take the pain points from `output/loose-ideas/pain-points-found.md` and craft solution visions for each. Use all three modes below for every pain point.
+Take the pain points from `output/loose-ideas/pain-points-found.md` and craft **user-facing software solution visions** for them. Use all three modes below for every pain point you craft for.
+
+## Software Focus (read first)
+
+This is where Painkiller's software focus is distilled. Every solution vision must be a **user-facing software product** — a mobile app, web app, desktop app, browser extension, or software ecosystem that a real person opens and uses.
+
+- **Only craft solutions for pain points tagged `high` or `partial` software-addressability** in `pain-points-found.md`. For `low` pains, note them briefly as "out of software scope" and move on — do not invent a product for them.
+- **No policies, no API-only/backend-only tools.** A policy demand (e.g. "provide more paid sick days") is not a product. Reframe it as the software that delivers or operationalizes it (e.g. a sick-leave accrual + one-tap call-in app the worker uses on their phone). If there is no genuine user-facing software at the center — only a policy with an app bolted on as an afterthought — drop the idea rather than forcing it.
+- **Always name a real user and a real platform.** Who opens this software, on what device, to solve what?
 
 ## Three Solution Modes
 
@@ -36,6 +44,11 @@ Each document must contain:
 
 - The pain point (label + brief recap)
 - **2–3 solution visions**, each with:
+  - **Software lens** — a required block naming:
+    - **Product** — what the software is, in one line
+    - **Platform(s)** — mobile app / web app / desktop / browser extension / etc.
+    - **Primary user** — who uses it, and the issue it solves for them
+    - **Core user-facing interaction** — what the user actually does in the software
   - **Human scenario** — who is this for, what are they doing
   - **How it solves the felt need** — what changes emotionally and practically
   - **Interaction concept** — what the user does, what the system does

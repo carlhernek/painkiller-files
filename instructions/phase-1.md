@@ -29,8 +29,14 @@ For each pain point include:
 - **Evidence** — quotes, observations, or references to source files
 - **Recurrence** — how often this pattern appears (count or weight)
 - **Confidence** — how strongly the material supports this (low / medium / high)
+- **Software-addressability** — `high` / `partial` / `low`, with a one-line rationale. Ask: could a user-facing software product (app, web app, browser extension, software ecosystem) plausibly remove or ease this pain? 
+  - `high` — software is a natural fit (e.g. coordination, visibility, tracking, communication, self-service)
+  - `partial` — software helps with part of it, but the core is policy/physical/organizational
+  - `low` — fundamentally a policy, pay, staffing, or physical-world matter that software can't really solve
 
 Use clear headings and keep the language human-centered.
+
+**Do not discard low-addressability pain points.** They provide essential context and feed the loose-ideas tier. The software lens is applied later (Phase 2 only crafts solutions for `high`/`partial` pains) — Phase 1's job is to surface everything honestly and tag it.
 
 ## Specific Instructions
 
