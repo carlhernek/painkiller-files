@@ -17,7 +17,7 @@ Examples of reusables:
 1. Formalize the asset:
    - Create a skill file in `skills/` (markdown describing when and how to use it)
    - Save any script or tool in `scripts/` or `tools/` as appropriate
-2. Commit the new files to the current session branch (only `skills/`, `tools/`, `scripts/` — never `input/`, `output/`, `research/`, or `.eventlog`)
+2. Call `commit_reusables` (no arguments) to commit the new files to the current session branch (only `skills/`, `tools/`, `scripts/` — never `input/`, `output/`, `research/`, or `.eventlog`). Do not invent commit scripts, run shell commands, or inspect `.git` — Painkiller projects use git worktrees.
 3. Append to `.eventlog`:
 
 ```

@@ -11,7 +11,7 @@ Examples: a research-fetch script, a provenance header template, a skill for sum
 ## If Yes
 
 1. Formalize the asset in `skills/`, `tools/`, or `scripts/` as appropriate
-2. Commit to the current session branch (only reusable folders — never `input/`, `output/`, `research/`, or `.eventlog`)
+2. Call `commit_reusables` (no arguments) to commit to the current session branch (only reusable folders — never `input/`, `output/`, `research/`, or `.eventlog`). Do not invent commit scripts, run shell commands, or inspect `.git` — Painkiller projects use git worktrees.
 3. Append to `.eventlog`:
 
 ```

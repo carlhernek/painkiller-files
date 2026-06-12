@@ -11,7 +11,7 @@ Examples: a spec-linting checklist, a packaging skill, a template helper script.
 ## If Yes
 
 1. Formalize the asset in `skills/`, `tools/`, or `scripts/` as appropriate
-2. Commit to the current session branch (only reusable folders)
+2. Call `commit_reusables` (no arguments) to commit to the current session branch (only reusable folders). Do not invent commit scripts, run shell commands, or inspect `.git` — Painkiller projects use git worktrees.
 3. Append to `.eventlog`:
 
 ```
